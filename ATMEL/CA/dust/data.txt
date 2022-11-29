@@ -1,0 +1,13 @@
+원리
+센서 내부에는 빛감지 센서, led , 히터가 있다
+미세먼지가 led의 빛에 부딪이는것을 빛감지 센서가 감지하여 미세먼지의 양을 측정하며
+히터에 의해 펜이 없이도 대류현상이 일어나 바깥공기의 미세먼지의 변화를 감지할수 있다.
+
+코드
+"lowpulseoccupancy" represents the Lo Pulse Occupancy Time(LPO Time) detected in given 30s.
+ Its unit is microsecond.
+
+"ratio" reflects on which level LPO Time takes up the whole sample time.
+
+"concentration" is a figure that has physical meaning. 
+It's calculated from the characteristic graph below  by using the LPO time. 
